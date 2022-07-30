@@ -126,7 +126,11 @@
     "@typescript-eslint/no-dupe-class-members": "error",
     "@typescript-eslint/no-duplicate-imports": "error",
     "@typescript-eslint/no-empty-function": "error",
-    "@typescript-eslint/no-extra-parens": "error",
+    "@typescript-eslint/no-extra-parens": [
+      "error", "all", {
+        "ignoreJSX": "multi-line"
+      }
+    ],
     "@typescript-eslint/no-extra-semi": "error",
     "@typescript-eslint/no-invalid-this": "error",
     "@typescript-eslint/no-loss-of-precision": "error",

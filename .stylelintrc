@@ -1,6 +1,7 @@
 {
   "extends": ["stylelint-config-clean-order"],
   "plugins": ["stylelint-order"],
+  "customSyntax": "postcss-scss",
   "rules": {
     "block-no-empty": true,
     "color-no-invalid-hex": true,
@@ -17,7 +18,6 @@
     "declaration-block-no-shorthand-property-overrides": true,
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
-    "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-linear-gradient-no-nonstandard-direction": true,
     "keyframe-declaration-no-important": true,
