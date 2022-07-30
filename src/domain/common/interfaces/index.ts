@@ -1,0 +1,5 @@
+export type { IStatusCode } from '@domain/common/interfaces/status-code'
+export type { IStackService, IQueueService } from '@domain/common/interfaces/structure'
+export type { IClassValidationDetails } from '@domain/common/interfaces/class-validator'
+export type { IEntity } from '@domain/common/interfaces/entity'
+export type { IUseCase } from '@domain/common/interfaces/use-case'
